@@ -1,0 +1,38 @@
+# KnapSpec
+
+Official implementation of the paper **KnapSpec: Knapsack-based Speculative Decoding**.
+
+## 🚀 Quick Start
+
+### 1. Environment Setup
+
+```bash
+conda create -n knapspec python=3.10
+conda activate knapspec
+pip install -r requirements.txt
+```
+
+### 2. Run Benchmarks
+
+Run comparison experiments (AR vs KnapSpec vs Baselines):
+
+```bash
+bash run_comparison_local.sh
+```
+
+### Supported Models
+- Qwen/Qwen3-32B
+- Qwen/Qwen3-14B (Default)
+- Qwen/Qwen3-8B
+- Qwen/Qwen3-4B
+- Llama-3.1-70B
+- Llama-3.1-8B
+- Llama-3.2-1B
+- Llama-3.2-3B
+
+
+### Main Arguments
+- `--model`: HuggingFace model ID
+- `--dataset`: Dataset to evaluate (`aime24`, `mmlu_pro`, etc.)
+- `--strategy`: `autoregressive`, `knapspec`, `clasp`, `del`
+- `--compare-strategies`: Run all strategies sequentially for fair comparison
