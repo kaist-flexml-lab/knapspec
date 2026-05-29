@@ -1,4 +1,4 @@
-# KnapSpec
+# KnapSpec: Self-Speculative Decoding via Adaptive Layer Selection as a Knapsack Problem
 
 Official implementation of the paper **KnapSpec: Knapsack-based Speculative Decoding**.
 
@@ -36,3 +36,15 @@ bash run_comparison_local.sh
 - `--dataset`: Dataset to evaluate (`aime24`, `mmlu_pro`, etc.)
 - `--strategy`: `autoregressive`, `knapspec`, `clasp`, `del`
 - `--compare-strategies`: Run all strategies sequentially for fair comparison
+
+
+### 📚 Citation
+
+```bibtex
+@inproceedings{cha2026knapspec,
+      title={KnapSpec: Self-Speculative Decoding via Adaptive Layer Selection as a Knapsack Problem},
+      author={Cha, Seongjin and Kim, Gyuwan and Han, Dongsu and Yang, Tao and Han, Insu},
+      booktitle = {Proceedings of the Forty-Third International Conference on Machine Learning (ICML)},
+      year={2026}
+}
+```
