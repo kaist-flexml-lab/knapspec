@@ -1,6 +1,6 @@
 # KnapSpec: Self-Speculative Decoding via Adaptive Layer Selection as a Knapsack Problem
 
-Official implementation of the paper **KnapSpec: Knapsack-based Speculative Decoding**.
+Official implementation of the paper **<a href="https://openreview.net/pdf?id=k5nKHWp9VC" target="_blank">KnapSpec: Knapsack-based Speculative Decoding</a>**, accepted at the **43rd International Conference on Machine Learning (ICML 2026)**.
 
 ## 🚀 Quick Start
 
@@ -38,7 +38,7 @@ bash run_comparison_local.sh
 - `--compare-strategies`: Run all strategies sequentially for fair comparison
 
 
-### 📚 Citation
+## 📚 Citation
 
 ```bibtex
 @inproceedings{cha2026knapspec,
